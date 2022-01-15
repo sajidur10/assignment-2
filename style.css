@@ -14,6 +14,10 @@ body{
     font-size: 16px;
     font-weight: 700;
 }
+.button:hover{
+    background-color: #e02c6eb4 ;
+    transition: background-color 1s;
+}
 .fa-arrow-right{
     margin-left: 7px;
 }
@@ -228,11 +232,13 @@ footer{
     color: #D9DBE1;
     margin: 0;
 }
-.footer-content a{
+.social-icon{
+    margin-top: 17px;
+}
+.social-icon a{
     text-decoration: none;
     color: #FFFFFF;
     margin-left: 16px;
-    margin-top: 17px;
     font-size: 17px;
     
 }
@@ -244,6 +250,7 @@ footer{
 @media only screen and (max-width:688px) {
     /* header style */
 .header-title{
+    margin-left: 0;
     text-align: center;
 }
     /* section1 style */
@@ -251,6 +258,9 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .section-title1{
+        font-size: 30px;
     }
     .blog-info{
         width: 300px;
@@ -272,7 +282,6 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 30px;
-    column-gap: 30px;
     }
 /* section3 style */
 .reviews{
